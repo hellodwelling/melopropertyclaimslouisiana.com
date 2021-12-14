@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="MELO Property Claims" property="og:title">
+
     
         <meta content="https://landing-page-app-hero-images.s3.amazonaws.com/media/OYSGB0EJJ1QQGN2ML5EOCXKWYN1KE3UJKBPI4NJN.png" property="og:image">
         <meta content="MELO Property Claims" property="twitter:title">
@@ -165,11 +166,16 @@ class="flex relative flex-col w-full  bg-white text-black  lg:flex-row lg:flex-w
     <div class="flex justify-end p-8 lg:py-32 lg:px-16 lg:pl-10 lg:w-1/2">
         <div class="flex flex-col items-center lg:items-start justify-center w-full lg:max-w-lg">
             <h2 class="mb-3 text-3xl text-center font-extrabold  leading-none sm:text-4xl lg:text-7xl text-center lg:text-left">
-                MELO Property Claims  
+                MELO Property Claims 
             </h2>
             
             <h1 class="pt-5 lg:text-xl text-center lg:text-left">
-                Customer first property claims in  New Orleans & surrounding areas.  Professional property claims handlers with more than 20 years experience! Relax. We are on your side. Public Adjusters hold your insurance company accountable while getting you the valuation and compensation you deserve. We work for you, so let's work together.
+                <!--  
+                    Customer first property claims in
+                     New Orleans & surrounding areas.
+                     
+                  -->
+                Professional property claims handlers with more than 20 years experience! Relax. We are on your side. Public Adjusters hold your insurance company accountable while getting you the valuation and compensation you deserve. We work for you, so let's work together.
             </h1>
             
             <h2 class="py-5 mb-5 lg:text-xl text-center lg:text-left">
@@ -289,7 +295,9 @@ class="flex relative flex-col w-full  bg-white text-black  lg:flex-row lg:flex-w
     <div class="relative order-first lg:order-last block lg:w-1/2 ">
 
     
-        <img src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6W5HUK6APDP9B2MOADWM6Q8JYTY7N9YYQZIZJBK.gif"  alt = "Main hero image of MELO Property Claims performing Property Claims work"  class="object-cover w-full lg:absolute h-80 lg:h-full">
+        
+            <img src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q6W5HUK6APDP9B2MOADWM6Q8JYTY7N9YYQZIZJBK.gif"   alt = "Main hero image of MELO Property Claims performing Property Claims work"  class="object-cover w-full lg:absolute h-80 lg:h-full">
+            
     
     </div>
 
@@ -312,7 +320,7 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
                     About Us
                 </h5>
                 <p class="py-5 px-5 lg:px-0 mb-5 text-center lg:text-left  lg:text-xl">
-                MELO Property Claims is Louisiana's most trusted professional property claims service providing claims services in New Orleans, Baton Rouge and the surrounding areas. With over 16 years in the field of insurance, Ramon Melo can help you through the hassle of dealing with insurance companies. He knows how they work, and exactly what needs to be done in order to get clients the absolute best resolution for their claims. We also partner with the right experts in a variety of fields to handle your damage claims.<br><br>If you ready to receive expert advice and undivided attention to your case with no upfront costs, give us a call. We'll handle it.<br><br><b> Our Promise </b>  Zero up-front cost | No-obligation claim review | Contingency pricing<br><br><b> Contact Us </b> Phone: 980-318-6163 ​|| Email: Info@MeloPropertyClaims.com
+                MELO Property Claims is Louisiana's most trusted professional property claims service providing claims services in New Orleans, Baton Rouge and the surrounding areas. With over 16 years in the field of insurance, Ramon Melo can help you through the hassle of dealing with insurance companies. He knows how they work, and exactly what needs to be done in order to get clients the absolute best resolution for their claims. We also partner with the right experts in a variety of fields to handle your damage claims.<br><br>If you ready to receive expert advice and undivided attention to your case with no upfront costs, give us a call. We'll handle it.<br><br><b> Our Promise </b>  Zero up-front cost | No-obligation claim review | Contingency pricing<br><br><b> Contact Us </b> Phone: 504-342-4500 ​|| Email: Info@MeloPropertyClaims.com
                 </p>                
             </div>
 
@@ -490,6 +498,169 @@ class="flex flex-col flex-grow w-full overflow-hidden  lg:flex-row sm:mx-auto  b
 
 
     </section>
+    
+    
+        
+ 
+    <div id="" class="flex text-center justify-center items-center  w-full lg:w-auto " x-data="{open: false}">
+        
+<button 
+ 
+    onMouseOver="this.style.backgroundColor='white'; this.style.color='#d1d5db' "
+    onMouseOut="this.style.backgroundColor='#00bafb'; this.style.color='white'"
+    style="background-color:#00bafb; color:white"               
+
+ id="side-button" type="button" x-on:click.prevent="open = true" class=" 
+  
+
+   mb-3 fixed bottom-0 -right-80 z-10 mr-3 md:mr-0 z-40 inline-flex items-center justify-center h-24 px-6 lg:mr-6 tracking-wide transition duration-200 rounded-lg focus:shadow-outline focus:outline-none  bg-black text-white  hover:bg-gray-400   hover:text-black  z-30">
+    <h5 class="text-3xl font-extrabold">Send us a Text</h5> 
+</button>
+
+        <div x-show.transition.opacity="open" class="transform-none p-4 fixed h-screen w-screen flex justify-center items-center bottom-0 right-0 bg-black bg-opacity-75 z-50">
+    <form x-on:click.away="open = false" x-show.transition="open" class=" text-black max-w-3xl max-h-full h-auto p-8 py-10 overflow-auto bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7 mt-16 md:mt-0 md:w-2/5 z-50">
+            <h3 class="mb-6 text-2xl font-medium text-black text-center">Send us a Text</h3>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="first-name" id="2-first-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="First Name">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="last-name" id="2-last-name" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Last Name">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <input type="text" name="phone-number" id="2-phone-number" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="Phone Number">
+        </div>
+        <div class="block mb-4 border border-gray-200 rounded-lg">
+            <textarea name="message" cols="5" id="2-message" class="block w-full px-4 py-3 border-2 border-transparent rounded-lg focus:border-blue-500 focus:outline-none" placeholder="What is your message?"></textarea>
+        </div>
+        <div class="block">
+        <button type="button" 
+         
+            onMouseOver="this.style.backgroundColor='#d1d5db'; this.style.color='#00bafb' "
+            onMouseOut="this.style.backgroundColor='#00bafb'; this.style.color='white'"
+            style="background-color:#00bafb; color:white"               
+
+         
+        onclick= "send_sms(2, 'MELO-Property-Claims')" 
+        class="w-full px-3 py-4 font-bold font-lg text-white  bg-black text-white  hover:bg-gray-400   hover:text-black  rounded-lg">Send</button> 
+        </div>           
+
+    </form>
+</div>
+    </div>
+
+    
+    
+    <section  style= "background-color:#d1d5db"   id= "services" class="lg:mt-0 relative w-full px-8 font-sans leading-6  bg-white text-black  border-solid ">
+        <div class="flex flex-col items-center max-w-6xl px-8 py-20 mx-auto leading-6 border-solid md:items-stretch md:justify-center md:py-24  mt-24 ">
+            
+            <h2 class="mb-3 lg:pr-9 text-3xl mx-auto font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide text-center">
+                Our Services
+            </h2>
+            <h2  style= "color:#00bafb"  class="w-full lg:pr-9 max-w-3xl mx-0 mx-auto mt-4 mb-0 font-sans text-sm font-medium leading-relaxed text-center text-gray-400 border-0 border-black-200 lg:text-lg md:text-base">
+                <!-- What we are best at  - expert  property claims  -->
+                We provide a variety of property claims services!
+            </h2>
+
+            <div class="grid grid-cols-3 gap-5 mt-10 sm:grid-cols-8 lg:grid-cols-12">
+
+                    
+                <div class="max-w-xs col-span-4 font-sans rounded-lg border border-black-200 ">
+                        <a href= "services">
+                            <div class="box-border flex flex-col h-full md:py-8 leading-6 border-solid rounded-lg bg-white border-black-200">
+                                    
+                        <div  class="font-sans text-center border-black-200 flex justify-left">
+                            <i  style="color:#00bafb"  class="fas fa-check-square fa-3x pl-5 pr-5 text-gray-400"></i>
+                            <!-- <i  style="color:#00bafb"  class="fal fa-check fa-3x pl-5 pr-5 text-gray-400"></i> -->
+                            <div style="display:flex; justify-content: center; align-items:center">
+                                <h3  class="box-border text-lg font-bold leading-none tracking-wider border-solid text-gray-900">PROPERTY DAMAGE APPRAISAL & ESTIMATE</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans rounded-lg border border-black-200 ">
+                        <a href= "services">
+                            <div class="box-border flex flex-col h-full md:py-8 leading-6 border-solid rounded-lg bg-white border-black-200">
+                                    
+                        <div  class="font-sans text-center border-black-200 flex justify-left">
+                            <i  style="color:#00bafb"  class="fas fa-check-square fa-3x pl-5 pr-5 text-gray-400"></i>
+                            <!-- <i  style="color:#00bafb"  class="fal fa-check fa-3x pl-5 pr-5 text-gray-400"></i> -->
+                            <div style="display:flex; justify-content: center; align-items:center">
+                                <h3  class="box-border text-lg font-bold leading-none tracking-wider border-solid text-gray-900">INSURANCE DISPUTE MEDIATION</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans rounded-lg border border-black-200 ">
+                        <a href= "services">
+                            <div class="box-border flex flex-col h-full md:py-8 leading-6 border-solid rounded-lg bg-white border-black-200">
+                                    
+                        <div  class="font-sans text-center border-black-200 flex justify-left">
+                            <i  style="color:#00bafb"  class="fas fa-check-square fa-3x pl-5 pr-5 text-gray-400"></i>
+                            <!-- <i  style="color:#00bafb"  class="fal fa-check fa-3x pl-5 pr-5 text-gray-400"></i> -->
+                            <div style="display:flex; justify-content: center; align-items:center">
+                                <h3  class="box-border text-lg font-bold leading-none tracking-wider border-solid text-gray-900">PRE-LOSS & DISASTER PLANNING</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans rounded-lg border border-black-200 ">
+                        <a href= "services">
+                            <div class="box-border flex flex-col h-full md:py-8 leading-6 border-solid rounded-lg bg-white border-black-200">
+                                    
+                        <div  class="font-sans text-center border-black-200 flex justify-left">
+                            <i  style="color:#00bafb"  class="fas fa-check-square fa-3x pl-5 pr-5 text-gray-400"></i>
+                            <!-- <i  style="color:#00bafb"  class="fal fa-check fa-3x pl-5 pr-5 text-gray-400"></i> -->
+                            <div style="display:flex; justify-content: center; align-items:center">
+                                <h3  class="box-border text-lg font-bold leading-none tracking-wider border-solid text-gray-900">BUILDERS RISK INSURANCE CLAIMS</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans rounded-lg border border-black-200 ">
+                        <a href= "services">
+                            <div class="box-border flex flex-col h-full md:py-8 leading-6 border-solid rounded-lg bg-white border-black-200">
+                                    
+                        <div  class="font-sans text-center border-black-200 flex justify-left">
+                            <i  style="color:#00bafb"  class="fas fa-check-square fa-3x pl-5 pr-5 text-gray-400"></i>
+                            <!-- <i  style="color:#00bafb"  class="fal fa-check fa-3x pl-5 pr-5 text-gray-400"></i> -->
+                            <div style="display:flex; justify-content: center; align-items:center">
+                                <h3  class="box-border text-lg font-bold leading-none tracking-wider border-solid text-gray-900">PROPERTY DAMAGE INSURANCE CLAIMS</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>        
+                    
+                <div class="max-w-xs col-span-4 font-sans rounded-lg border border-black-200 ">
+                        <a href= "services">
+                            <div class="box-border flex flex-col h-full md:py-8 leading-6 border-solid rounded-lg bg-white border-black-200">
+                                    
+                        <div  class="font-sans text-center border-black-200 flex justify-left">
+                            <i  style="color:#00bafb"  class="fas fa-check-square fa-3x pl-5 pr-5 text-gray-400"></i>
+                            <!-- <i  style="color:#00bafb"  class="fal fa-check fa-3x pl-5 pr-5 text-gray-400"></i> -->
+                            <div style="display:flex; justify-content: center; align-items:center">
+                                <h3  class="box-border text-lg font-bold leading-none tracking-wider border-solid text-gray-900">PARTNERSHIPS WITH LOCAL CONTRACTORS</h3>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>        
+            
+            </div>
+        </div>
+    </section>
+    <!-- </a> -->
+
+    
+
     
 
 <div id="service-area-array" class = "hidden">
